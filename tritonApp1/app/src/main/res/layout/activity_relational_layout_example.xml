@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UnknownId">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Triton College"
+        android:id="@+id/welcome"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/lblUsername"
+        android:layout_below="@id/welcome"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/lblPassword"
+        android:layout_below="@id/lblUsername"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:hint="Enter Username"
+        android:layout_below="@+id/welcome"
+        android:layout_toRightOf="@+id/lblUsername"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Enter Password"
+        android:layout_below="@+id/lblUsername"
+        android:layout_toRightOf="@+id/lblPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnlogin"
+        android:layout_below="@id/txtPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
